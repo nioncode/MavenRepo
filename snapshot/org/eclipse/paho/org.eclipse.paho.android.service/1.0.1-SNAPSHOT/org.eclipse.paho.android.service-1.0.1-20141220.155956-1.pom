@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.eclipse.paho</groupId>
+  <artifactId>org.eclipse.paho.android.service</artifactId>
+  <version>1.0.1-SNAPSHOT</version>
+  <packaging>aar</packaging>
+  <name>Eclipse Paho - MQTT Android Service</name>
+  <description>Eclipse Paho - MQTT Android Service</description>
+  <url>https://eclipse.org/paho/clients/android/</url>
+  <licenses>
+    <license>
+      <name>Eclipse Public License - v 1.0</name>
+      <url>https://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>unknown</id>
+      <name>unknown</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.java.git</connection>
+    <developerConnection>scm:git://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.java.git</developerConnection>
+    <url>http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.java.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse.paho</groupId>
+      <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
