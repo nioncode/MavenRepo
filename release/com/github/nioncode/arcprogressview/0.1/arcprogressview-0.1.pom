@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.nioncode</groupId>
+  <artifactId>arcprogressview</artifactId>
+  <version>0.1</version>
+  <packaging>aar</packaging>
+  <name>ArcProgressView Library</name>
+  <description>An arc shaped progress view.</description>
+  <url>https://github.com/nioncode/ArcProgressView</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nicolasschneider</id>
+      <name>Nicolas Schneider</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com/nioncode/ArcProgressView.git</connection>
+    <developerConnection>scm:git@github.com/nioncode/ArcProgressView.git</developerConnection>
+    <url>https://github.com/nioncode/ArcProgressView</url>
+  </scm>
+</project>
